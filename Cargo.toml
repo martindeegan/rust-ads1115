@@ -1,7 +1,9 @@
 [package]
 name = "ads111x"
 version = "0.1.0"
-authors = ["martindeegan"]
+authors = ["martindeegan <mddeegan@gmail.com>"]
+description = "ADS111X analog to digital converter driver."
+license = "MIT/Apache-2.0"
 
 [lib]
 name = "ads111x"
