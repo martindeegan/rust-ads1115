@@ -1,0 +1,19 @@
+[package]
+name = "ads111x"
+version = "0.1.0"
+authors = ["martindeegan"]
+
+[lib]
+name = "ads111x"
+path = "src/lib.rs"
+
+[[bin]]
+name = "ads111xbin"
+path = "src/main.rs"
+
+[dependencies]
+i2cdev = "0.3.1"
+byteorder = "1.1.0"
+
+
+
